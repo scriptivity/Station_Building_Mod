@@ -1,0 +1,10 @@
+{
+  "parent": "station_building_mod:custom/celing_dropdown__01",
+  "textures": {
+    "all": "station_building_mod:block/demountable_ceiling_tile_stack_24_x_24_inches_texture",
+    "particle": "station_building_mod:block/demountable_ceiling_tile_stack_24_x_24_inches_texture",
+    "0": "station_building_mod:block/v01",
+    "1": "station_building_mod:block/v01-1"
+  },
+  "render_type": "solid"
+}

@@ -1,13 +1,137 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "LogoItem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logo_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stationbuildingmod/item/LogoItemItem.java",
+          "src/main/resources/assets/station_building_mod/models/item/logo_item.json"
+        ]
+      }
+    },
+    {
+      "name": "StationBuildingTab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "station_building_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Dropdown01",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropdown_01",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/station_building_mod/blockstates/dropdown_01.json",
+          "src/main/resources/assets/station_building_mod/models/item/dropdown_01.json",
+          "src/main/resources/assets/station_building_mod/models/block/dropdown_01.json",
+          "src/main/java/net/mcreator/stationbuildingmod/block/Dropdown01Block.java"
+        ]
+      },
+      "path": "~/Decor Elements/Ceilings/Blocks"
+    },
+    {
+      "name": "Dropdown02",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropdown_02",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stationbuildingmod/block/Dropdown02Block.java",
+          "src/main/resources/assets/station_building_mod/models/item/dropdown_02.json",
+          "src/main/resources/assets/station_building_mod/blockstates/dropdown_02.json",
+          "src/main/resources/assets/station_building_mod/models/block/dropdown_02.json"
+        ]
+      },
+      "path": "~/Decor Elements/Ceilings/Blocks"
+    },
+    {
+      "name": "DropdownLight01",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropdown_light_01",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/station_building_mod/blockstates/dropdown_light_01.json",
+          "src/main/resources/assets/station_building_mod/models/item/dropdown_light_01.json",
+          "src/main/resources/assets/station_building_mod/models/block/dropdown_light_01.json",
+          "src/main/java/net/mcreator/stationbuildingmod/block/DropdownLight01Block.java"
+        ]
+      },
+      "path": "~/Decor Elements/Ceilings/Lights"
+    },
+    {
+      "name": "Dropdown03",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropdown_03",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/station_building_mod/blockstates/dropdown_03.json",
+          "src/main/resources/assets/station_building_mod/models/item/dropdown_03.json",
+          "src/main/java/net/mcreator/stationbuildingmod/block/Dropdown03Block.java",
+          "src/main/resources/assets/station_building_mod/models/block/dropdown_03.json"
+        ]
+      },
+      "path": "~/Decor Elements/Ceilings/Blocks"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.station_building_mod.dropdown_03": "Dropdown 0 3",
+      "block.station_building_mod.dropdown_02": "Dropdown 0 2",
+      "item_group.station_building_mod.station_building_tab": "Station Building Mod",
+      "block.station_building_mod.dropdown_01": "Dropdown 0 1",
+      "block.station_building_mod.dropdown_light_01": "Dropdown Light 0 1",
+      "item.station_building_mod.logo_item": "Logo Item"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Decor Elements",
+        "children": [
+          {
+            "name": "Ceilings",
+            "children": [
+              {
+                "name": "Blocks",
+                "children": []
+              },
+              {
+                "name": "Lights",
+                "children": []
+              },
+              {
+                "name": "Other",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "station_building_mod",
@@ -15,7 +139,7 @@
     "version": "1.0.0",
     "author": "scriptivity, MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -23,6 +147,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.stationbuildingmod",
     "lockBaseModFiles": false
   },

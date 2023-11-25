@@ -1,1 +1,8 @@
-{}
+{
+  "block.station_building_mod.dropdown_03": "Dropdown 0 3",
+  "block.station_building_mod.dropdown_02": "Dropdown 0 2",
+  "item_group.station_building_mod.station_building_tab": "Station Building Mod",
+  "block.station_building_mod.dropdown_01": "Dropdown 0 1",
+  "block.station_building_mod.dropdown_light_01": "Dropdown Light 0 1",
+  "item.station_building_mod.logo_item": "Logo Item"
+}

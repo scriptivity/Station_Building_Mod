@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "v02-1",
+        "2": "v02"
+      },
+      "name": "default"
+    }
+  }
+}

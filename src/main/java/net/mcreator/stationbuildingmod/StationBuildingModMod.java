@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.stationbuildingmod.init.StationBuildingModModItems;
+import net.mcreator.stationbuildingmod.init.StationBuildingModModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +49,9 @@ public class StationBuildingModMod {
 	public StationBuildingModMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		StationBuildingModModBlocks.REGISTRY.register(bus);
+		StationBuildingModModItems.REGISTRY.register(bus);
 
 	}
 

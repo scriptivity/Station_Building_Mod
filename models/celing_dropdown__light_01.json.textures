@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dropdown_light_01"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "station_building_mod:custom/celing_dropdown__light_01",
+  "textures": {
+    "all": "station_building_mod:block/dropdown_light_01",
+    "particle": "station_building_mod:block/dropdown_light_01",
+    "0": "station_building_mod:block/dropdown_light_01"
+  },
+  "render_type": "solid"
+}
